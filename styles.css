@@ -1,0 +1,29 @@
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+}
+
+.bg-active {
+  background-color: #3c65a6 !important;
+}
+
+h1 {
+font-family: "Poppins", sans-serif;
+color: #1f3557 !important;
+}
+
+img {
+    width: 700px;
+}
+
+/* Container centers everything vertically */
+.hero-container {
+  min-height: 100vh;
+}
+
+/* Typography */
+.hero-title {
+  font-family: "Poppins", "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+}
