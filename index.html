@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyDocDay — Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,27 +17,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body class="bg-white text-dark position-relative overflow-hidden">
-    <main class="container d-flex align-items-center justify-content-center hero-container">
-      <div class="row align-items-center justify-content-center w-100">
-        <div class="col-8 d-flex flex-column align-items-center text-center gap-3">
-          <span class="badge rounded-pill text-uppercase text-white fw-semibold px-3 py-2 text-secondary bg-active">
+  <body class="hero-body">
+    <main class="container hero-container d-flex justify-content-center position-relative px-4">
+      <div class="row hero-row align-items-center justify-content-center justify-content-lg-between g-5 flex-lg-row flex-column-reverse">
+        <div class="col-lg-6 d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center hero-copy">
+          <span class="badge text-uppercase fw-semibold px-3 py-2 hero-badge">
             Coming Soon
           </span>
-          <h1 class="fw-bold mb-0">
-            MyDocDay
-          </h1>
-          <p class="lead text-secondary mb-1">
-            Your calm in the healthcare chaos — MyDocDay keeps every doctor, appointment, and reminder in one simple space. No more dealing with multple doctor portals.
+          <h1 class="fw-bold hero-title mb-3">MyDocDay</h1>
+          <p class="lead hero-description mb-4">
+              Making managing healthcare easy - MyDocDay brings every doctor, appointment, and reminder together in one clear, connected space. No more juggling logins or scattered patient portals.
           </p>
+          <ul class="hero-list mb-4 p-0 text-start align-items-start d-flex flex-column gap-3">
+            <li>All your providers, organized in one dashboard</li>
+            <li>Manage your entire family — with doctors, appointments, and reminders for each</li>
+            <li>Smart reminders that know your healthcare needs and remind you when it matters</li>
+          </ul>
+          <span class="small text-body">Keep up with our build progress on <a target="_blank" href="https://www.linkedin.com/company/mydocday/posts/?feedView=all">LinkedIn</a></span>
         </div>
-        <div class="col-10 d-flex align-items-center justify-content-center mt-5">
-          <div class="bg-active rounded-4 px-3 pt-5 pb-3">
-<img src="./img/MyDocDay.png" alt="MyDocDay Image" class="rounded-3" />
+        <div class="col-lg-6 hero-visual mb-5 mb-lg-0">
+          <div class="visual-shell">
+            <div class="visual-frame"></div>
+            <div class="visual-card">
+              <img
+                src="./img/MyDocDay.png"
+                alt="Preview of the MyDocDay app"
+                class="hero-image"
+              />
+            </div>
           </div>
         </div>
       </div>
     </main>
   </body>
 </html>
-
